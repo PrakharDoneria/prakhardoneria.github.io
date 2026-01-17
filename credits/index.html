@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credits | Prakhar Doneria</title>
+    <meta name="description" content="Credits and acknowledgments for Prakhar Doneria's portfolio.">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="../index.html" class="logo">PD.</a>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <a href="../education/">Education</a>
+            <a href="../projects/">Projects</a>
+            <a href="../skills/">Skills</a>
+            <a href="../certificates/">Certifications</a>
+            <a href="../experience/">Experience</a>
+        </div>
+    </nav>
+
+    <main>
+        <section style="padding-top: calc(var(--nav-height) + var(--space-3xl));">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-label">Acknowledgments</span>
+                    <h1 class="section-title">Credits</h1>
+                    <p class="section-description">Special thanks to the technologies and resources that made this
+                        portfolio possible.</p>
+                </div>
+
+                <div class="card-grid card-grid-3">
+                    <div class="card reveal">
+                        <div class="card-icon">🏗️</div>
+                        <h3 class="card-title">Core Stack</h3>
+                        <p class="card-description">Built using semantic HTML5, modern CSS3 (Custom Properties, Flexbox,
+                            Grid), and Vanilla JavaScript.</p>
+                    </div>
+                    <div class="card reveal">
+                        <div class="card-icon">🎨</div>
+                        <h3 class="card-title">Design</h3>
+                        <p class="card-description">UI/UX designed with a focus on modern minimalism, typography
+                            hierarchy, and accessible color contrast.</p>
+                    </div>
+                    <div class="card reveal">
+                        <div class="card-icon">🔤</div>
+                        <h3 class="card-title">Typography</h3>
+                        <p class="card-description">Primary typeface: <strong>Josefin Sans</strong> provided by Google
+                            Fonts.</p>
+                    </div>
+                    <div class="card reveal">
+                        <div class="card-icon">🖼️</div>
+                        <h3 class="card-title">Media</h3>
+                        <p class="card-description">Hero background video and images curated from high-quality
+                            royalty-free sources.</p>
+                    </div>
+                    <div class="card reveal">
+                        <div class="card-icon">🚀</div>
+                        <h3 class="card-title">Deployment</h3>
+                        <p class="card-description">Version control via GitHub and hosted using GitHub Pages.</p>
+                    </div>
+                    <div class="card reveal">
+                        <div class="card-icon">🛠️</div>
+                        <h3 class="card-title">Tooling</h3>
+                        <p class="card-description">Developed using VS Code and powered by modern browser APIs like
+                            Intersection Observer and Cache API.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="../index.html" class="logo">PD.</a>
+                    <p class="footer-tagline">Engineering the future.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/PrakharDoneria" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://instagram.com/prakhardoneria" target="_blank"
+                        rel="noopener noreferrer">Instagram</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; <span id="year"></span> Prakhar Doneria. All rights reserved.</p>
+                <div style="display: flex; flex-direction: column; align-items: flex-end; gap: var(--space-xs);">
+                    <p class="footer-credits">Built by <a href="https://github.com/PrakharDoneria" target="_blank"
+                            rel="noopener noreferrer">Prakhar Doneria</a></p>
+                    <a href="./" style="font-size: 0.75rem; color: var(--text-muted); opacity: 0.8;">Credits Page</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Mobile menu
+            const menuToggle = document.getElementById('menuToggle');
+            const navLinks = document.getElementById('navLinks');
+            if (menuToggle) {
+                menuToggle.addEventListener('click', () => navLinks.classList.toggle('active'));
+            }
+
+            // Scroll-based nav visibility
+            const nav = document.querySelector('nav');
+            const scrollThreshold = 300;
+            function updateNav() {
+                if (window.scrollY > scrollThreshold) {
+                    nav.classList.add('nav-visible', 'nav-scrolled');
+                } else {
+                    nav.classList.remove('nav-visible', 'nav-scrolled');
+                }
+            }
+            window.addEventListener('scroll', updateNav, { passive: true });
+            updateNav();
+
+            // Reveal animation
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('active'); });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+            // Year
+            const yearEl = document.getElementById('year');
+            if (yearEl) yearEl.textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+
+</html>

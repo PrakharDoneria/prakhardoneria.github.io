@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills | Prakhar Doneria</title>
+    <meta name="description" content="Technical skills and expertise of Prakhar Doneria.">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Skills Page Specific Styles */
+        .skills-hero {
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(180deg, var(--bg-elevated) 0%, var(--bg-main) 100%);
+            padding: calc(var(--nav-height) + var(--space-3xl)) var(--space-lg) var(--space-3xl);
+        }
+
+        .skills-hero h1 {
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            font-weight: 900;
+            letter-spacing: -2px;
+            margin-bottom: var(--space-md);
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .skills-hero p {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Skills Categories */
+        .skills-section {
+            padding: var(--space-3xl) 0;
+        }
+
+        .skills-category {
+            margin-bottom: var(--space-3xl);
+        }
+
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+            margin-bottom: var(--space-xl);
+        }
+
+        .category-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--bg-elevated);
+            border-radius: var(--radius-lg);
+            font-size: 1.75rem;
+            border: 1px solid var(--border);
+        }
+
+        .category-title {
+            font-size: 1.75rem;
+            font-weight: 800;
+            color: var(--text-primary);
+        }
+
+        /* Pill-style Skill Tags */
+        .skills-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-sm);
+        }
+
+        .skill-pill {
+            display: inline-flex;
+            align-items: center;
+            padding: var(--space-sm) var(--space-lg);
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-full);
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: default;
+        }
+
+        .skill-pill:hover {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(99, 102, 241, 0.25);
+        }
+
+        /* Interactive Skill Meter */
+        .skill-meter-container {
+            margin-top: var(--space-3xl);
+        }
+
+        .skill-meter-header {
+            text-align: center;
+            margin-bottom: var(--space-xl);
+        }
+
+        .skill-meter-header h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: var(--space-xs);
+        }
+
+        .skill-meter-header p {
+            color: var(--text-secondary);
+        }
+
+        .skill-meters {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--space-lg);
+        }
+
+        .meter-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: var(--space-lg);
+            transition: all 0.3s ease;
+        }
+
+        .meter-item:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary-light);
+        }
+
+        .meter-label {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: var(--space-sm);
+        }
+
+        .meter-name {
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .meter-percent {
+            font-weight: 600;
+            color: var(--primary);
+            font-size: 0.9rem;
+        }
+
+        .meter-bar {
+            height: 8px;
+            background: var(--bg-elevated);
+            border-radius: var(--radius-full);
+            overflow: hidden;
+        }
+
+        .meter-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary) 0%, var(--primary-light) 100%);
+            border-radius: var(--radius-full);
+            width: 0%;
+            transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .meter-item.animated .meter-fill {
+            width: var(--fill-width);
+        }
+
+        /* Stats Summary */
+        .skills-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--space-lg);
+            margin-top: var(--space-3xl);
+            padding: var(--space-xl);
+            background: var(--bg-card);
+            border-radius: var(--radius-xl);
+            border: 1px solid var(--border);
+        }
+
+        .summary-item {
+            text-align: center;
+        }
+
+        .summary-number {
+            font-size: 3rem;
+            font-weight: 900;
+            color: var(--primary);
+            line-height: 1;
+        }
+
+        .summary-label {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: var(--space-xs);
+        }
+
+        @media (max-width: 768px) {
+            .skill-meters {
+                grid-template-columns: 1fr;
+            }
+
+            .skills-summary {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="../index.html" class="logo">PD.</a>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <a href="../education/">Education</a>
+            <a href="../projects/">Projects</a>
+            <a href="../skills/">Skills</a>
+            <a href="../certificates/">Certifications</a>
+            <a href="../experience/">Experience</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero -->
+        <section class="skills-hero">
+            <div class="reveal">
+                <h1>Technical Skills</h1>
+                <p>A comprehensive toolkit of technologies, frameworks, and methodologies that power my development
+                    workflow.</p>
+            </div>
+        </section>
+
+        <!-- Skills Categories -->
+        <section class="skills-section">
+            <div class="container">
+                <!-- Categories will be dynamically generated -->
+                <div id="skills-categories"></div>
+
+                <!-- Skill Meters -->
+                <div class="skill-meter-container reveal">
+                    <div class="skill-meter-header">
+                        <h2>Proficiency Levels</h2>
+                        <p>Expertise across key technology domains</p>
+                    </div>
+                    <div class="skill-meters" id="skill-meters">
+                        <!-- Dynamic meters -->
+                    </div>
+                </div>
+
+                <!-- Summary Stats -->
+                <div class="skills-summary reveal" id="skills-summary">
+                    <!-- Dynamic stats -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="../index.html" class="logo">PD.</a>
+                    <p class="footer-tagline">Engineering the future.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/PrakharDoneria" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://instagram.com/prakhardoneria" target="_blank"
+                        rel="noopener noreferrer">Instagram</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; <span id="year"></span> Prakhar Doneria.</p>
+                <div style="display: flex; flex-direction: column; align-items: flex-end; gap: var(--space-xs);">
+                    <p class="footer-credits">Built by <a href="https://github.com/PrakharDoneria" target="_blank"
+                            rel="noopener noreferrer">Prakhar Doneria</a></p>
+                    <a href="../credits/"
+                        style="font-size: 0.75rem; color: var(--text-muted); opacity: 0.8; transition: opacity 0.3s;"
+                        onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.8">Credits Page</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            // Mobile menu
+            const menuToggle = document.getElementById('menuToggle');
+            const navLinks = document.getElementById('navLinks');
+            if (menuToggle) {
+                menuToggle.addEventListener('click', () => navLinks.classList.toggle('active'));
+            }
+
+            // Scroll-based nav visibility
+            const nav = document.querySelector('nav');
+            const scrollThreshold = 300;
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > scrollThreshold) {
+                    nav.classList.add('nav-visible', 'nav-scrolled');
+                } else {
+                    nav.classList.remove('nav-visible', 'nav-scrolled');
+                }
+            }, { passive: true });
+
+            // Reveal animation
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(e => {
+                    if (e.isIntersecting) {
+                        e.target.classList.add('active');
+                        // Animate meters when visible
+                        if (e.target.classList.contains('meter-item')) {
+                            e.target.classList.add('animated');
+                        }
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+            // Load skills
+            const categoriesContainer = document.getElementById('skills-categories');
+            const metersContainer = document.getElementById('skill-meters');
+            const summaryContainer = document.getElementById('skills-summary');
+
+            try {
+                const skills = await fetch('../data/skills.json').then(res => res.json());
+                const uniqueSkills = [...new Set(skills.map(s => s.Name))];
+
+                // Categorize skills (sample categorization)
+                const categories = {
+                    'Languages': { icon: '💻', skills: ['JavaScript', 'Python', 'Java', 'C++', 'PHP', 'TypeScript', 'HTML', 'CSS', 'SQL', 'Kotlin', 'Swift', 'Go', 'Rust', 'Dart'] },
+                    'Frameworks': { icon: '🛠️', skills: ['React', 'Node.js', 'Express', 'Next.js', 'Vue', 'Angular', 'Django', 'Flask', 'Spring', 'Laravel', 'Flutter', 'React Native'] },
+                    'Cloud & DevOps': { icon: '☁️', skills: ['AWS', 'Google Cloud', 'Azure', 'Docker', 'Kubernetes', 'CI/CD', 'GitHub Actions', 'Terraform', 'Linux', 'Nginx'] },
+                    'AI & Data': { icon: '🤖', skills: ['TensorFlow', 'PyTorch', 'scikit-learn', 'Pandas', 'NumPy', 'OpenAI', 'Machine Learning', 'NLP', 'Computer Vision', 'Data Analysis'] },
+                    'Databases': { icon: '🗄️', skills: ['MongoDB', 'PostgreSQL', 'MySQL', 'Redis', 'Firebase', 'Supabase', 'GraphQL', 'Prisma'] },
+                    'Tools': { icon: '🔧', skills: ['Git', 'VS Code', 'Figma', 'Postman', 'Jira', 'Notion', 'Slack', 'Vercel', 'Netlify'] }
+                };
+
+                // Render categories
+                let categoriesHTML = '';
+                for (const [catName, catData] of Object.entries(categories)) {
+                    const matchedSkills = uniqueSkills.filter(s =>
+                        catData.skills.some(cs => s.toLowerCase().includes(cs.toLowerCase()) || cs.toLowerCase().includes(s.toLowerCase()))
+                    );
+
+                    if (matchedSkills.length > 0) {
+                        categoriesHTML += `
+                            <div class="skills-category reveal">
+                                <div class="category-header">
+                                    <div class="category-icon">${catData.icon}</div>
+                                    <h2 class="category-title">${catName}</h2>
+                                </div>
+                                <div class="skills-pills">
+                                    ${matchedSkills.map(s => `<span class="skill-pill">${s}</span>`).join('')}
+                                </div>
+                            </div>
+                        `;
+                    }
+                }
+
+                // Add uncategorized skills
+                const categorizedSkills = Object.values(categories).flatMap(c => c.skills.map(s => s.toLowerCase()));
+                const uncategorized = uniqueSkills.filter(s =>
+                    !categorizedSkills.some(cs => s.toLowerCase().includes(cs) || cs.includes(s.toLowerCase()))
+                );
+
+                if (uncategorized.length > 0) {
+                    categoriesHTML += `
+                        <div class="skills-category reveal">
+                            <div class="category-header">
+                                <div class="category-icon">⚡</div>
+                                <h2 class="category-title">Other Technologies</h2>
+                            </div>
+                            <div class="skills-pills">
+                                ${uncategorized.map(s => `<span class="skill-pill">${s}</span>`).join('')}
+                            </div>
+                        </div>
+                    `;
+                }
+
+                categoriesContainer.innerHTML = categoriesHTML;
+
+                // Render skill meters (mock proficiency data)
+                const topSkills = [
+                    { name: 'JavaScript', percent: 95 },
+                    { name: 'Python', percent: 90 },
+                    { name: 'React', percent: 88 },
+                    { name: 'Node.js', percent: 85 },
+                    { name: 'Cloud Platforms', percent: 82 },
+                    { name: 'Machine Learning', percent: 78 }
+                ];
+
+                metersContainer.innerHTML = topSkills.map(skill => `
+                    <div class="meter-item reveal" style="--fill-width: ${skill.percent}%">
+                        <div class="meter-label">
+                            <span class="meter-name">${skill.name}</span>
+                            <span class="meter-percent">${skill.percent}%</span>
+                        </div>
+                        <div class="meter-bar">
+                            <div class="meter-fill"></div>
+                        </div>
+                    </div>
+                `).join('');
+
+                // Render summary
+                summaryContainer.innerHTML = `
+                    <div class="summary-item">
+                        <div class="summary-number">${uniqueSkills.length}+</div>
+                        <div class="summary-label">Total Skills</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="summary-number">${Object.keys(categories).length}</div>
+                        <div class="summary-label">Categories</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="summary-number">5+</div>
+                        <div class="summary-label">Years Coding</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="summary-number">∞</div>
+                        <div class="summary-label">Learning</div>
+                    </div>
+                `;
+
+                // Observe new elements
+                document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+                document.querySelectorAll('.meter-item').forEach(el => observer.observe(el));
+
+            } catch (e) {
+                console.error(e);
+                categoriesContainer.innerHTML = '<p>Unable to load skills.</p>';
+            }
+
+            // Year
+            const yearEl = document.getElementById('year');
+            if (yearEl) yearEl.textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+
+</html>

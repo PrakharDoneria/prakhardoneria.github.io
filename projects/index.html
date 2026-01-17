@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Prakhar Doneria</title>
+    <meta name="description" content="Explore the project portfolio of Prakhar Doneria.">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Projects Page Specific Styles */
+        .projects-hero {
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(180deg, var(--bg-elevated) 0%, var(--bg-main) 100%);
+            padding: calc(var(--nav-height) + var(--space-3xl)) var(--space-lg) var(--space-3xl);
+        }
+
+        .projects-hero h1 {
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            font-weight: 900;
+            letter-spacing: -2px;
+            margin-bottom: var(--space-md);
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .projects-hero p {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Masonry-style Grid */
+        .projects-masonry {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: var(--space-lg);
+            padding: var(--space-3xl) 0;
+        }
+
+        .project-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-xl);
+            padding: var(--space-xl);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--primary);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.4s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--primary-light);
+        }
+
+        .project-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .project-number {
+            font-size: 3rem;
+            font-weight: 900;
+            color: var(--bg-elevated);
+            position: absolute;
+            top: var(--space-md);
+            right: var(--space-lg);
+            line-height: 1;
+            transition: color 0.3s ease;
+        }
+
+        .project-card:hover .project-number {
+            color: var(--accent);
+        }
+
+        .project-card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: var(--space-sm);
+            padding-right: 3rem;
+        }
+
+        .project-card p {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            flex-grow: 1;
+        }
+
+        .project-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: var(--space-lg);
+            padding-top: var(--space-md);
+            border-top: 1px solid var(--border);
+        }
+
+        .project-date {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+
+        .project-link {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-xs);
+            font-weight: 700;
+            color: var(--primary);
+            font-size: 0.9rem;
+            transition: gap 0.3s ease;
+        }
+
+        .project-link:hover {
+            gap: var(--space-sm);
+        }
+
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: var(--space-lg);
+            right: var(--space-lg);
+            width: 50px;
+            height: 50px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            font-size: 1.25rem;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-md);
+            z-index: 100;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        @media (max-width: 768px) {
+            .projects-masonry {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="../index.html" class="logo">PD.</a>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <a href="../education/">Education</a>
+            <a href="../projects/">Projects</a>
+            <a href="../skills/">Skills</a>
+            <a href="../certificates/">Certifications</a>
+            <a href="../experience/">Experience</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero -->
+        <section class="projects-hero">
+            <div class="reveal">
+                <h1>My Projects</h1>
+                <p>A curated collection of software projects showcasing full-stack development, AI integration, and
+                    innovative solutions.</p>
+            </div>
+        </section>
+
+        <!-- Projects Grid -->
+        <section>
+            <div class="container">
+                <div class="projects-masonry" id="projects-container">
+                    <!-- Dynamic content -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button class="back-to-top" id="backToTop">↑</button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="../index.html" class="logo">PD.</a>
+                    <p class="footer-tagline">Engineering the future.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/PrakharDoneria" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://instagram.com/prakhardoneria" target="_blank"
+                        rel="noopener noreferrer">Instagram</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; <span id="year"></span> Prakhar Doneria.</p>
+                <div style="display: flex; flex-direction: column; align-items: flex-end; gap: var(--space-xs);">
+                    <p class="footer-credits">Built by <a href="https://github.com/PrakharDoneria" target="_blank"
+                            rel="noopener noreferrer">Prakhar Doneria</a></p>
+                    <a href="../credits/"
+                        style="font-size: 0.75rem; color: var(--text-muted); opacity: 0.8; transition: opacity 0.3s;"
+                        onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.8">Credits Page</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            // Mobile menu
+            const menuToggle = document.getElementById('menuToggle');
+            const navLinks = document.getElementById('navLinks');
+            if (menuToggle) {
+                menuToggle.addEventListener('click', () => navLinks.classList.toggle('active'));
+            }
+
+            // Scroll-based nav visibility
+            const nav = document.querySelector('nav');
+            const scrollThreshold = 300;
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > scrollThreshold) {
+                    nav.classList.add('nav-visible', 'nav-scrolled');
+                } else {
+                    nav.classList.remove('nav-visible', 'nav-scrolled');
+                }
+            }, { passive: true });
+
+            // Back to top button
+            const backToTop = document.getElementById('backToTop');
+            window.addEventListener('scroll', () => {
+                backToTop.classList.toggle('visible', window.scrollY > 500);
+            }, { passive: true });
+            backToTop.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+            // Reveal animation
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('active'); });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+            // Load projects
+            const container = document.getElementById('projects-container');
+            try {
+                const projects = await fetch('../data/projects.json').then(res => res.json());
+                container.innerHTML = projects.map((p, i) => `
+                    <div class="project-card reveal" style="animation-delay: ${i * 0.1}s">
+                        <span class="project-number">${String(i + 1).padStart(2, '0')}</span>
+                        <h3>${p.Title}</h3>
+                        <p>${p.Description || 'Full-stack application development with modern technologies and best practices.'}</p>
+                        <div class="project-footer">
+                            <span class="project-date">${p['Started On']}${p['Finished On'] ? ' — ' + p['Finished On'] : ''}</span>
+                            ${p.Url ? `<a href="${p.Url}" target="_blank" rel="noopener noreferrer" class="project-link">View Project →</a>` : ''}
+                        </div>
+                    </div>
+                `).join('');
+
+                document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+            } catch (e) {
+                container.innerHTML = '<p>Unable to load projects.</p>';
+            }
+
+            // Year
+            const yearEl = document.getElementById('year');
+            if (yearEl) yearEl.textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+
+</html>

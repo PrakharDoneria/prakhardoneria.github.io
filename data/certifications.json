@@ -1,0 +1,506 @@
+[
+  {
+    "Name": "Analyze Images with the Cloud Vision API",
+    "Url": "https://www.cloudskillsboost.google/public_profiles/4bdbea66-70fb-4415-a258-0f335acf91c7/badges/12276357?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    "Authority": "United Latino Students Association",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": "12276357"
+  },
+  {
+    "Name": "Networking Fundamentals on Google Cloud",
+    "Url": "https://www.cloudskillsboost.google/public_profiles/4bdbea66-70fb-4415-a258-0f335acf91c7/badges/12275597?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    "Authority": "United Latino Students Association",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": "12275597"
+  },
+  {
+    "Name": "Monitoring in Google Cloud",
+    "Url": "https://www.cloudskillsboost.google/public_profiles/4bdbea66-70fb-4415-a258-0f335acf91c7/badges/12223130?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    "Authority": "United Latino Students Association",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": "12223130"
+  },
+  {
+    "Name": "Cloud Speech API: 3 Ways",
+    "Url": "https://www.cloudskillsboost.google/public_profiles/4bdbea66-70fb-4415-a258-0f335acf91c7/badges/12219765?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    "Authority": "United Latino Students Association",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": "12219765"
+  },
+  {
+    "Name": "App Engine: 3 Ways",
+    "Url": "https://www.cloudskillsboost.google/public_profiles/4bdbea66-70fb-4415-a258-0f335acf91c7/badges/12197476?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    "Authority": "United Latino Students Association",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": "12197476"
+  },
+  {
+    "Name": "Cloud Functions: 3 Ways",
+    "Url": "https://www.cloudskillsboost.google/public_profiles/4bdbea66-70fb-4415-a258-0f335acf91c7/badges/12194882?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    "Authority": "United Latino Students Association",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": "12194882"
+  },
+  {
+    "Name": "Get Started with Google Workspace Tools",
+    "Url": "https://www.cloudskillsboost.google/public_profiles/4bdbea66-70fb-4415-a258-0f335acf91c7/badges/12192139?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    "Authority": "United Latino Students Association",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": "12192139"
+  },
+  {
+    "Name": "Get Started with Dataplex",
+    "Url": "https://www.cloudskillsboost.google/public_profiles/4bdbea66-70fb-4415-a258-0f335acf91c7/badges/12133791?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    "Authority": "United Latino Students Association",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": "12133791"
+  },
+  {
+    "Name": "Get Started with Looker",
+    "Url": "https://www.cloudskillsboost.google/public_profiles/4bdbea66-70fb-4415-a258-0f335acf91c7/badges/12063978?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    "Authority": "United Latino Students Association",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": "12063978"
+  },
+  {
+    "Name": "The Basics of Google Cloud Compute",
+    "Url": "https://www.cloudskillsboost.google/public_profiles/4bdbea66-70fb-4415-a258-0f335acf91c7/badges/12062444?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    "Authority": "United Latino Students Association",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": "12062444"
+  },
+  {
+    "Name": "Get Started with API Gateway",
+    "Url": "https://www.cloudskillsboost.google/public_profiles/4bdbea66-70fb-4415-a258-0f335acf91c7/badges/12029411?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    "Authority": "United Latino Students Association",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": "12029411"
+  },
+  {
+    "Name": "Get Started with Cloud Storage",
+    "Url": "https://www.cloudskillsboost.google/public_profiles/4bdbea66-70fb-4415-a258-0f335acf91c7/badges/12025162?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    "Authority": "United Latino Students Association",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": "12025162"
+  },
+  {
+    "Name": "Introduction to Generative AI",
+    "Url": "https://www.cloudskillsboost.google/public_profiles/4bdbea66-70fb-4415-a258-0f335acf91c7/badges/12005184?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    "Authority": "United Latino Students Association",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": "12005184"
+  },
+  {
+    "Name": "Level 3: Google Cloud Adventures",
+    "Url": "https://www.cloudskillsboost.google/public_profiles/4bdbea66-70fb-4415-a258-0f335acf91c7/badges/12004422?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    "Authority": "United Latino Students Association",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": "12004422"
+  },
+  {
+    "Name": "Fundaments of Azure Ai",
+    "Url": "https://learn.microsoft.com/api/achievements/share/en-us/PrakharDoneria-8125/ZK4G3AW2?sharingId=35CC1336E1F29BC4",
+    "Authority": "Microsoft",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Fundamentals of Machine Learning",
+    "Url": "https://learn.microsoft.com/api/achievements/share/en-us/PrakharDoneria-8125/EST3F7WP?sharingId=35CC1336E1F29BC4",
+    "Authority": "Microsoft",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Python (Basic)",
+    "Url": "https://www.hackerrank.com/certificates/2239eb19f09d",
+    "Authority": "HackerRank",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Postman Flows - Beginner",
+    "Url": "https://api.badgr.io/public/assertions/i4KbRxiySlWptH0664M4lA",
+    "Authority": "Canvas Credentials (Badgr)",
+    "Started On": "Oct 2024",
+    "Finished On": null,
+    "License Number": "6722513c19cd647c65b65eca"
+  },
+  {
+    "Name": "Prompt Design in Vertex AI",
+    "Url": "https://www.cloudskillsboost.google/public_profiles/4bdbea66-70fb-4415-a258-0f335acf91c7/badges/12576593?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    "Authority": "Google",
+    "Started On": "Nov 2024",
+    "Finished On": null,
+    "License Number": "12576593"
+  },
+  {
+    "Name": "Cloud Service Types",
+    "Url": "https://learn.microsoft.com/en-us/users/prakhardoneria-8125/achievements/eslqshkp",
+    "Authority": "Microsoft",
+    "Started On": "Nov 2024",
+    "Finished On": null,
+    "License Number": "eslqshkp"
+  },
+  {
+    "Name": "Cloud Computing",
+    "Url": "https://learn.microsoft.com/en-us/users/prakhardoneria-8125/achievements/qt5mtzte",
+    "Authority": "Microsoft",
+    "Started On": "Nov 2024",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Manage apps in Power Apps",
+    "Url": "https://learn.microsoft.com/api/achievements/share/en-us/PrakharDoneria-8125/P5UL3534?sharingId=35CC1336E1F29BC4",
+    "Authority": "Microsoft",
+    "Started On": "Nov 2024",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Introduction to Cybersecurity",
+    "Url": "https://www.credly.com/badges/d563537d-6ad4-4629-9be8-027cb2114400",
+    "Authority": "Cisco Networking Academy",
+    "Started On": "Dec 2024",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Junior Cybersecurity Analyst Career Path",
+    "Url": "https://www.credly.com/badges/e78e391c-09e0-4eb0-95e0-5d83aee538d2/public_url",
+    "Authority": "Cisco Networking Academy",
+    "Started On": "Dec 2024",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Design a dream destination with AI",
+    "Url": "https://learn.microsoft.com/api/achievements/share/en-us/PrakharDoneria-8125/WZC5PFHN?sharingId=35CC1336E1F29BC4",
+    "Authority": "Microsoft",
+    "Started On": "Feb 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Design a dream destination using Microsoft Copilot",
+    "Url": "https://learn.microsoft.com/api/achievements/share/en-us/PrakharDoneria-8125/2BX8LMAV?sharingId=35CC1336E1F29BC4",
+    "Authority": "Microsoft",
+    "Started On": "Feb 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Fundamentals of Computer Vision",
+    "Url": "https://learn.microsoft.com/api/achievements/share/en-us/PrakharDoneria-8125/WZC5K86N?sharingId=35CC1336E1F29BC4",
+    "Authority": "Microsoft",
+    "Started On": "Feb 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Fundamentals of Facial Recognition",
+    "Url": "https://learn.microsoft.com/api/achievements/share/en-us/PrakharDoneria-8125/HAGT4TX8?sharingId=35CC1336E1F29BC4",
+    "Authority": "Microsoft",
+    "Started On": "Feb 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Explore AI Challenges",
+    "Url": null,
+    "Authority": "Microsoft Learn Student Ambassadors",
+    "Started On": "Apr 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Networking Fundamentals on Google Cloud",
+    "Url": "https://www.cloudskillsboost.google/public_profiles/4bdbea66-70fb-4415-a258-0f335acf91c7/badges/12275597",
+    "Authority": "Google",
+    "Started On": "Apr 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Get Started with Cloud Storage",
+    "Url": "https://www.credly.com/badges/1bb3480c-8221-4f21-929b-be73b038e7c6/public_url",
+    "Authority": "Google",
+    "Started On": "Apr 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Get Started with API Gateway Skill Badge",
+    "Url": "https://www.credly.com/badges/09f2c292-15ce-49e1-8ed1-ab1788ca69d2/public_url",
+    "Authority": "Google",
+    "Started On": null,
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "The Basics of Google Cloud Compute Skill Badge",
+    "Url": "https://www.credly.com/badges/53bde9c3-cf8d-4699-853f-eae46f91dcb1/public_url",
+    "Authority": "Google",
+    "Started On": null,
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Get Started with Looker",
+    "Url": "https://www.credly.com/badges/a4680c80-8b20-41c5-85c4-dc1e575d8908/public_url",
+    "Authority": "Google",
+    "Started On": "Apr 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Get Started with Dataplex",
+    "Url": "https://www.credly.com/badges/370382aa-0b8f-4138-865a-ca2943d7d7dd/public_url",
+    "Authority": "Google",
+    "Started On": "Apr 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Get Started with Google Workspace",
+    "Url": "https://www.credly.com/badges/e6ac75a2-6c15-4231-85c4-a1683c832bd6/public_url",
+    "Authority": "Google",
+    "Started On": "Apr 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Store, Process, and Manage Data on Google Cloud",
+    "Url": "https://www.credly.com/badges/c93cbd77-1adf-4eda-a25e-baff08bb0f39/public_url",
+    "Authority": "Google",
+    "Started On": "Apr 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Bring AI to Work Workshop",
+    "Url": "https://bringaitowork.aicurated.com/pluginfile.php/1/tool_certificate/issues/1749139132/2494943871PD.pdf",
+    "Authority": "Google",
+    "Started On": "Jun 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Introduction to Cyber Security Awareness",
+    "Url": "https://www.life-global.org/certificate/69b37c58-695f-4ec8-a44f-77ee6fb1b531",
+    "Authority": "HP LIFE",
+    "Started On": "Jun 2025",
+    "Finished On": null,
+    "License Number": "https://www.life-global.org/certificate/69b37c58-695f-4ec8-a44f-77ee6fb1b531"
+  },
+  {
+    "Name": "Plan and prepare to develop AI solutions on Azure",
+    "Url": "https://learn.microsoft.com/api/achievements/share/en-us/PrakharDoneria-8125/D9RK8CRJ?sharingId=35CC1336E1F29BC4",
+    "Authority": "Microsoft",
+    "Started On": "Jun 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Python Essentials",
+    "Url": "https://www.credly.com/badges/490e52ba-e16d-4826-bb9f-0824558768e8",
+    "Authority": "Cisco Networking Academy",
+    "Started On": "Jun 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Introduction to Programming Using Python",
+    "Url": "https://www.geeksforgeeks.org/certificate/4d8c4ba2aeba143411e5fe5a3c8a14d2",
+    "Authority": "GeeksforGeeks",
+    "Started On": "Jun 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Relational to Document Model",
+    "Url": "https://www.credly.com/badges/a513c266-9727-46b9-b618-9cdc86d366b5/public_url",
+    "Authority": "MongoDB University",
+    "Started On": "Jul 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Deloitte Australia - Cyber Job Simulation",
+    "Url": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_EN5RY9DqZJgjScW9x_1751892409030_completion_certificate.pdf",
+    "Authority": "Forage",
+    "Started On": "Jul 2025",
+    "Finished On": null,
+    "License Number": "uc37TmrXohet6ML8k"
+  },
+  {
+    "Name": "AI Aware Badge - AI For All",
+    "Url": "https://ai-for-all.in/#/badge?id=U2FsdGVkX19ps1L2a3S4hiaqJT0N71jkuX4A4ramwCVyVluZWEuGIcFZv690s1L2a3S4hUcMVwg4S3sJ",
+    "Authority": "United Latino Students Association",
+    "Started On": "Jul 2025",
+    "Finished On": null,
+    "License Number": "U2FsdGVkX19ps1L2a3S4hiaqJT0N71jkuX4A4ramwCVyVluZWEuGIcFZv690s1L2a3S4hUcMVwg4S3sJ"
+  },
+  {
+    "Name": "AI Appreciate Badge - AI For All",
+    "Url": "https://ai-for-all.in/#/badge?id=U2FsdGVkX19dlg7X5daJKUynnI7s1L2a3S4ha2Spplwp1L2u3S4Y9o0s1L2a3S4h568AkJ1dDq6GMeyVPLHnaP",
+    "Authority": "United Latino Students Association",
+    "Started On": "Jul 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Neo4j Certified Professional",
+    "Url": "https://graphacademy.neo4j.com/c/94fed3c4-7b11-4f00-a65e-6c97a953e1c4/",
+    "Authority": "Neo4j",
+    "Started On": "Jun 2025",
+    "Finished On": null,
+    "License Number": "94fed3c4-7b11-4f00-a65e-6c97a953e1c4"
+  },
+  {
+    "Name": "Postman API Fundamentals Student Expert",
+    "Url": "https://api.badgr.io/public/assertions/nHu_kB4qSxaRXGrVp-7HXg",
+    "Authority": "Canvas Credentials (Badgr)",
+    "Started On": "Jul 2025",
+    "Finished On": null,
+    "License Number": "687156eb83a7b36a4f33f088"
+  },
+  {
+    "Name": "AWS - Solutions Architecture Job Simulation",
+    "Url": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/pmnMSL4QiQ9JCgE3W/kkE9HyeNcw6rwCRGw_pmnMSL4QiQ9JCgE3W_EN5RY9DqZJgjScW9x_1753114361624_completion_certificate.pdf",
+    "Authority": "Forage",
+    "Started On": "Jul 2025",
+    "Finished On": null,
+    "License Number": "zDNX76Edv7B6T3QFb"
+  },
+  {
+    "Name": "Solutions Challenge",
+    "Url": "https://certificate.hack2skill.com/user/gdgscsubmissions/2025H2S01GSC-I07535",
+    "Authority": "Hack2skill",
+    "Started On": "Aug 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "Python Programming",
+    "Url": null,
+    "Authority": "Lumos Learning",
+    "Started On": "Aug 2025",
+    "Finished On": "Aug 2026",
+    "License Number": "536bca8461c358f76a3d897ae7001484"
+  },
+  {
+    "Name": "C++ Essential",
+    "Url": "https://www.credly.com/badges/101c0cf3-c4ba-43bc-b061-02e6e9d495ce/public_url",
+    "Authority": "Cisco Networking Academy",
+    "Started On": "Aug 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "MERN Stack Certificate",
+    "Url": "https://certificates.simplicdn.net/share/8735278_90457411754318252842.pdf",
+    "Authority": "Simplilearn",
+    "Started On": "Aug 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "AI Agents Fundamentals",
+    "Url": "https://huggingface.co/agents-course",
+    "Authority": "Hugging Face",
+    "Started On": "Sep 2025",
+    "Finished On": null,
+    "License Number": "prakhardoneria"
+  },
+  {
+    "Name": "Fundamentals of MCP",
+    "Url": "https://huggingface.co/datasets/mcp-course/certificates/resolve/main/certificates/prakhardoneria/2025-09-28.png",
+    "Authority": "Hugging Face",
+    "Started On": "Sep 2025",
+    "Finished On": null,
+    "License Number": "prakhardoneria"
+  },
+  {
+    "Name": "Build a computer vision app with Azure Cognitive Services",
+    "Url": "https://www.coursera.org/account/accomplishments/verify/RIGHJLVBWQSE",
+    "Authority": "United Latino Students Association",
+    "Started On": "Sep 2025",
+    "Finished On": null,
+    "License Number": "RIGHJLVBWQSE"
+  },
+  {
+    "Name": "Certificate of Merit (RVR)",
+    "Url": null,
+    "Authority": "IEC College Of Engineering & Technology, Greater Noida",
+    "Started On": "Nov 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "AWS - Solutions Architecture Job Simulation",
+    "Url": "https://www.theforage.com/completion-certificates/pmnMSL4QiQ9JCgE3W/kkE9HyeNcw6rwCRGw_pmnMSL4QiQ9JCgE3W_6919ae1a5a800c47679d47b2_1763291169112_completion_certificate.pdf",
+    "Authority": "Forage",
+    "Started On": "Nov 2025",
+    "Finished On": null,
+    "License Number": "4HbWZCPKRgzqv4H4k"
+  },
+  {
+    "Name": "Tata - GenAI Powered Data Analytics Job Simulation",
+    "Url": "https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_6919ae1a5a800c47679d47b2_1763293073757_completion_certificate.pdf",
+    "Authority": "Forage",
+    "Started On": "Nov 2025",
+    "Finished On": null,
+    "License Number": "MmQdQAAEAqE2CZXeE"
+  },
+  {
+    "Name": "Introduction to Cloud Infrastructure",
+    "Url": "https://learn.microsoft.com/api/achievements/share/en-us/PrakharDoneria-8125/ZDTLSZA2?sharingId=35CC1336E1F29BC4",
+    "Authority": "Microsoft",
+    "Started On": "Dec 2025",
+    "Finished On": null,
+    "License Number": null
+  },
+  {
+    "Name": "MongoDB and the Document Model (SmartBridge)",
+    "Url": "https://learn.mongodb.com/c/SRIyM_5xQ4S8_1yemrBeeg",
+    "Authority": "MongoDB",
+    "Started On": "Dec 2025",
+    "Finished On": null,
+    "License Number": "MDBpkaleakykc"
+  },
+  {
+    "Name": "Getting Started with MongoDB Atlas (SmartBridge)",
+    "Url": "https://learn.mongodb.com/c/V4g8y9gGSHObtH-mX1syyQ",
+    "Authority": "MongoDB",
+    "Started On": "Dec 2025",
+    "Finished On": null,
+    "License Number": "MDBo64w66b6f8"
+  },
+  {
+    "Name": "Security Operation Fundamentals",
+    "Url": null,
+    "Authority": "Infosys Springboard",
+    "Started On": "Dec 2025",
+    "Finished On": null,
+    "License Number": null
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "Title": "HTML Editor PRO - with AI",
+    "Description": "Online collaboration for real-time coding with others • Website and project hosting directly from the app • Easy project share/upload and download functionality • Syntax highlighting for enhanced code readability • Code preservation to ensure progress is always saved • User-friendly interface for effortless navigation • Lightweight and ad-free environment for distraction-free coding • Three visually appealing themes: light, dark, and gradient • Ai code writer with Open AI API • Code Prediction",
+    "Url": "https://play.google.com/store/apps/details?id=com.protecgames.htmleditorpro",
+    "Started On": "Jun 2022",
+    "Finished On": null
+  },
+  {
+    "Title": "Antara",
+    "Description": "Music Player made using YouTube Music API",
+    "Url": null,
+    "Started On": "Feb 2024",
+    "Finished On": "Mar 2024"
+  },
+  {
+    "Title": "Git Manager for Github",
+    "Description": "Read/Write/Append Repository and Gist or search GitHub",
+    "Url": null,
+    "Started On": "Mar 2024",
+    "Finished On": "Mar 2024"
+  },
+  {
+    "Title": "Image Explainer",
+    "Description": "RESTful API coded in Node JS using Gemini Vision Pro  Have a look yourself https://rapidapi.com/yashdoneria/api/image-explainer/",
+    "Url": null,
+    "Started On": "Mar 2024",
+    "Finished On": "Mar 2024"
+  },
+  {
+    "Title": "ClulesVibe",
+    "Description": null,
+    "Url": null,
+    "Started On": "May 2024",
+    "Finished On": "Jun 2024"
+  },
+  {
+    "Title": "VerboVisions: Free Text to Image",
+    "Description": "Android app that lets you make images using Ai",
+    "Url": null,
+    "Started On": "Jul 2024",
+    "Finished On": null
+  },
+  {
+    "Title": "SunoSynth - AI Music Maker",
+    "Description": "SunoSynth is an AI music maker available for both Android (Flutter) and Web (NextJS) with backends made of Python and NODE JS with firebase based authentication and MongoDB as database.  Make your dream music with our app with credit system!  10 Credits for Music Generation 5 Credits for Ai Lyrics  2 for saving in local storage   Features: - Make Music with Ai - Get Ai write lyrics for you if you want - A single account can be accessed on android and web app both - Custom instructions - Support all languages songs - Open Source (web version)",
+    "Url": null,
+    "Started On": "Feb 2025",
+    "Finished On": null
+  },
+  {
+    "Title": "VRINDA AI",
+    "Description": "VRINDA AI is an NLM trained and made by Navneet Singh, a senior cyber security expert and ai engineer.  I contributed to the project by making a simple Android app version of the ai using their API.",
+    "Url": null,
+    "Started On": "Mar 2025",
+    "Finished On": "Apr 2025"
+  },
+  {
+    "Title": "DevBytes",
+    "Description": "An AI based 60 words news summariser app made for people in tech, by people in tech.  An innovative idea for GDG Solutions Challenge 2025",
+    "Url": null,
+    "Started On": "Mar 2025",
+    "Finished On": "Apr 2025"
+  },
+  {
+    "Title": "Full Stack - Restaurant App",
+    "Description": "Full-Stack Restaurant app with features like; Order Pizza, Add New Pizza, Add New Category, Modern Ui, Sort Pizzas",
+    "Url": null,
+    "Started On": "Mar 2025",
+    "Finished On": "Mar 2025"
+  },
+  {
+    "Title": "TrackTik",
+    "Description": "A location based alarm that wakes you up 30 minutes before reaching your destination.",
+    "Url": null,
+    "Started On": "Mar 2025",
+    "Finished On": "Apr 2025"
+  },
+  {
+    "Title": "HTML Editor - Windows",
+    "Description": "Extremely light weight yet buggy (on production) HTML Editor app",
+    "Url": null,
+    "Started On": "Apr 2025",
+    "Finished On": null
+  },
+  {
+    "Title": "Mongo Easy",
+    "Description": "Mongo Easy is a beginner-friendly Python library that makes working with MongoDB super simple and readable — even for non-coders. Whether you're building a script, a CLI tool, or just learning databases, Mongo Easy helps you do CRUD operations with minimal setup and code.",
+    "Url": null,
+    "Started On": "Apr 2025",
+    "Finished On": "Apr 2025"
+  },
+  {
+    "Title": "ChiX",
+    "Description": "ChiX – a sleek, Python-powered GUI app built to streamline C programming for everyone, from beginners to pros.",
+    "Url": null,
+    "Started On": "Apr 2025",
+    "Finished On": null
+  },
+  {
+    "Title": "IEC LLM",
+    "Description": "LLM trained on IEC College website data that is used to run and LLM MODEL",
+    "Url": null,
+    "Started On": "Apr 2025",
+    "Finished On": null
+  },
+  {
+    "Title": "Karbon",
+    "Description": "Karbon is a desktop app that uses AI to generate and iteratively refine HTML/CSS/JS websites from simple prompts. Built with Python and Tkinter, it provides a live preview and export functionality.",
+    "Url": null,
+    "Started On": "Jun 2025",
+    "Finished On": null
+  },
+  {
+    "Title": "Meta AI Chess",
+    "Description": "A chess game where the AI doesn’t just play — it schemes.",
+    "Url": null,
+    "Started On": "Jun 2025",
+    "Finished On": "Jun 2025"
+  },
+  {
+    "Title": "GitLook",
+    "Description": "Get AI-generated reports, test your knowledge with 20 auto-generated MCQs, and download both as PDFs all from your GitHub profile.",
+    "Url": null,
+    "Started On": "Jul 2025",
+    "Finished On": null
+  },
+  {
+    "Title": "Karbon Sites",
+    "Description": "Karbon Sites is an AI-powered website generator that allows users to create and deploy fully functional websites from a simple text prompt. Describe your vision, and our AI will bring it to life, generating HTML, CSS, and JavaScript, which you can then refine, preview, and deploy directly to GitHub Pages.",
+    "Url": null,
+    "Started On": "Jul 2025",
+    "Finished On": null
+  },
+  {
+    "Title": "IEC Quiz App",
+    "Description": "This is a modern, full-stack quiz application built for the IEC Group of Institutions. It provides a seamless experience for both students to take quizzes and for administrators to manage them.",
+    "Url": null,
+    "Started On": "Oct 2025",
+    "Finished On": "Oct 2025"
+  },
+  {
+    "Title": "Multiplayer LAN Snake Game",
+    "Description": "Real-time multiplayer implementation of the classic Snake game built using Python (Flask/SocketIO) for the backend and JavaScript/HTML/CSS for the frontend. It supports multiple players in a single room, competitive scoring, and optional map modes (restricted boundaries or open-world wrap-around).",
+    "Url": null,
+    "Started On": "Dec 2025",
+    "Finished On": "Dec 2025"
+  }
+]
